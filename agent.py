@@ -209,11 +209,22 @@ def main():
     if not should_run(config['schedule']):
         return
 
-    # Decide action
-    action_taken = False
+    # Decide how many commits to make this session (1-23 range)
+    # More commits during main shift, fewer during secondary
+    current_h = get_current_hour()
+    if 11 <= current_h <= 27:  # Main shift
+        num_commits = random.randint(1, 8)  # Higher range for main shift
+    elif 9 <= current_h <= 25:  # Secondary shift
+        num_commits = random.randint(1, 4)  # Lower range for secondary
+    else:
+        num_commits = 1
     
-    # Try to undo history if it exists (and matches a repo we have access to)
-    if history and random.random() < 0.7:
+    print(f"Planning to make {num_commits} commit(s) this session")
+    
+    commits_made = 0
+    
+    # Try to undo history if it exists (counts as 1 commit)
+    if history and random.random() < 0.3:  # Reduced probability to allow more new commits
         target_repo_url = history.get('repo_url')
         if target_repo_url:
             print(f"Attempting cleanup on {target_repo_url}")
@@ -224,15 +235,16 @@ def main():
                     run_command('git commit -m "refactor: cleanup"', cwd=temp_repo)
                     run_command("git push", cwd=temp_repo)
                     save_json(HISTORY_FILE, {})
-                    action_taken = True
+                    commits_made += 1
+                    print(f"Cleanup commit made ({commits_made}/{num_commits})")
                 cleanup_repo(temp_repo)
 
-    if not action_taken:
-        # New change
+    # Make remaining commits
+    while commits_made < num_commits:
         repo_urls = config['repos']
         if not repo_urls:
             print("No repos configured.")
-            return
+            break
 
         target_url = random.choice(repo_urls)
         temp_repo = setup_repo(target_url, token)
@@ -240,17 +252,26 @@ def main():
         if temp_repo:
             new_history_data = apply_new_change(temp_repo, config)
             if new_history_data:
-                # Add the repo url to history so we know where to go back
-                new_history_data['repo_url'] = target_url
-                save_json(HISTORY_FILE, new_history_data)
+                # Only save the LAST commit to history for cleanup next time
+                if commits_made == num_commits - 1:
+                    new_history_data['repo_url'] = target_url
+                    save_json(HISTORY_FILE, new_history_data)
                 
                 message = random.choice(config['commit_messages'])
                 run_command("git add .", cwd=temp_repo)
                 run_command(f'git commit -m "{message}"', cwd=temp_repo)
                 run_command("git push", cwd=temp_repo)
-                print("Success!")
+                commits_made += 1
+                print(f"Commit made to {target_url.split('/')[-1]} ({commits_made}/{num_commits})")
             
             cleanup_repo(temp_repo)
+            
+            # Small delay between commits to look more human
+            if commits_made < num_commits:
+                time.sleep(random.randint(2, 8))
+    
+    print(f"Session complete! Made {commits_made} commit(s)")
 
 if __name__ == "__main__":
     main()
+
