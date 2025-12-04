@@ -22,6 +22,10 @@ def save_json(filepath, data):
     with open(filepath, 'w') as f:
         json.dump(data, f, indent=4)
 
+def load_config():
+    return load_json(CONFIG_FILE)
+
+
 def run_command(command, cwd=None):
     try:
         result = subprocess.run(
