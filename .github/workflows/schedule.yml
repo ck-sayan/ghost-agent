@@ -1,0 +1,36 @@
+name: Ghost Agent Daily Run
+
+on:
+  schedule:
+    # Run every hour (The script itself decides if it should act)
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual trigger for testing
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Agent Repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_PAT }} # Use PAT to checkout so we can push back history
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Run Agent
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: python agent.py
+
+    - name: Save Memory (History)
+      # Commits the updated history.json back to THIS repo
+      run: |
+        git config --global user.name "Ghost Agent"
+        git config --global user.email "agent@ghost.local"
+        git add history.json
+        git commit -m "update memory" || echo "No changes to memory"
+        git push

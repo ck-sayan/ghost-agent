@@ -1,0 +1,108 @@
+{
+    "repos": [
+        "https://github.com/ck-sayan/resumeo.io.git",
+        "https://github.com/ck-sayan/Timble.git",
+        "https://github.com/ck-sayan/pragya.ai.git",
+        "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    ],
+    "extensions": [
+        ".py",
+        ".js",
+        ".ts",
+        ".jsx",
+        ".tsx",
+        ".vue",
+        ".svelte",
+        ".php",
+        ".java",
+        ".kt",
+        ".kts",
+        ".groovy",
+        ".swift",
+        ".m",
+        ".h",
+        ".dart",
+        ".c",
+        ".cpp",
+        ".cc",
+        ".cxx",
+        ".hpp",
+        ".hxx",
+        ".cs",
+        ".go",
+        ".rs",
+        ".rb",
+        ".lua",
+        ".pl",
+        ".sh",
+        ".bash",
+        ".zsh",
+        ".md",
+        ".txt"
+    ],
+    "ignore_dirs": [
+        "node_modules",
+        "dist",
+        "build",
+        "out",
+        "target",
+        "bin",
+        "obj",
+        "venv",
+        ".venv",
+        "env",
+        ".env",
+        "__pycache__",
+        ".git",
+        ".svn",
+        ".hg",
+        ".idea",
+        ".vscode",
+        ".next",
+        ".nuxt",
+        "coverage",
+        ".gradle",
+        "assets",
+        "public",
+        "static",
+        "images",
+        "fonts"
+    ],
+    "schedule": {
+        "blocks": [
+            {
+                "start": 11,
+                "end": 27,
+                "probability": 0.6,
+                "desc": "Main Shift (11am-3am)"
+            },
+            {
+                "start": 9,
+                "end": 13,
+                "probability": 0.1,
+                "desc": "Morning Shift (9am-1pm)"
+            }
+        ],
+        "max_commits_per_session": 3
+    },
+    "comments": [
+        "TODO: Refactor this section later",
+        "NOTE: Optimization needed here",
+        "FIXME: Potential edge case",
+        "TODO: Add more tests",
+        "NOTE: Review logic for performance",
+        "TODO: Cleanup legacy code",
+        "NOTE: Temporary workaround",
+        "TODO: Update dependency usage"
+    ],
+    "commit_messages": [
+        "refactor: cleanup code",
+        "chore: add comments",
+        "docs: update documentation",
+        "style: format fixes",
+        "fix: minor logic adjustment",
+        "chore: maintenance",
+        "perf: optimize loop",
+        "test: update test cases"
+    ]
+}
