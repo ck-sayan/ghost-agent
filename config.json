@@ -73,8 +73,8 @@
             {
                 "start": 11,
                 "end": 27,
-                "probability": 0.6,
-                "desc": "Main Shift (11am-3am)"
+                "probability": 1.0,
+                "desc": "Main Shift (11am-3am) - TEST MODE"
             },
             {
                 "start": 9,
