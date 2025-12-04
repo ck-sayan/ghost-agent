@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// TODO: Add more tests",
-    "timestamp": 1764875886.1111922,
+    "rel_path": "scripts/background.js",
+    "added_content": "// TODO: Add documentation",
+    "timestamp": 1764879809.8091562,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
