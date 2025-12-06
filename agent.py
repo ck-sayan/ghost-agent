@@ -219,12 +219,10 @@ def main():
     # Decide how many commits to make this session (1-23 range)
     # More commits during main shift, fewer during secondary
     current_h = get_current_hour()
-    if 11 <= current_h <= 27:  # Main shift
-        num_commits = random.randint(1, 8)  # Higher range for main shift
-    elif 9 <= current_h <= 25:  # Secondary shift
-        num_commits = random.randint(1, 4)  # Lower range for secondary
+    if 9 <= current_h <= 27:  # Full day coverage (Max Power)
+        num_commits = random.randint(5, 15)  # HEAVY load: 5 to 15 commits per session
     else:
-        num_commits = 1
+        num_commits = random.randint(1, 3)
     
     print(f"Planning to make {num_commits} commit(s) this session")
     

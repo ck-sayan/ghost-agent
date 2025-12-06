@@ -66,52 +66,33 @@
         "public",
         "static",
         "images",
-        "fonts"
-    ],
-    "schedule": {
-        "blocks": [
-            {
-                "start": 11,
-                "end": 27,
-                "probability": 0.95,
-                "desc": "Main Shift (11am-3am) - CATCHUP MODE"
-            },
-            {
-                "start": 9,
-                "end": 25,
-                "probability": 0.4,
-                "desc": "Secondary Shift (9am-1am)"
-            }
+        "comments": [
+            "TODO: Refactor this section later",
+            "NOTE: Optimization needed here",
+            "FIXME: Potential edge case",
+            "TODO: Add more tests",
+            "NOTE: Review logic for performance",
+            "TODO: Cleanup legacy code",
+            "NOTE: Temporary workaround",
+            "TODO: Update dependency usage",
+            "TODO: Improve error handling",
+            "NOTE: Consider edge cases",
+            "FIXME: Memory leak potential",
+            "TODO: Add documentation",
+            "NOTE: Refactor for readability"
         ],
-        "max_commits_per_session": 3
-    },
-    "comments": [
-        "TODO: Refactor this section later",
-        "NOTE: Optimization needed here",
-        "FIXME: Potential edge case",
-        "TODO: Add more tests",
-        "NOTE: Review logic for performance",
-        "TODO: Cleanup legacy code",
-        "NOTE: Temporary workaround",
-        "TODO: Update dependency usage",
-        "TODO: Improve error handling",
-        "NOTE: Consider edge cases",
-        "FIXME: Memory leak potential",
-        "TODO: Add documentation",
-        "NOTE: Refactor for readability"
-    ],
-    "commit_messages": [
-        "refactor: cleanup code",
-        "chore: add comments",
-        "docs: update documentation",
-        "style: format fixes",
-        "fix: minor logic adjustment",
-        "chore: maintenance",
-        "perf: optimize loop",
-        "test: update test cases",
-        "refactor: improve code structure",
-        "docs: add inline comments",
-        "chore: code cleanup",
-        "style: improve readability"
-    ]
-}
+        "commit_messages": [
+            "refactor: cleanup code",
+            "chore: add comments",
+            "docs: update documentation",
+            "style: format fixes",
+            "fix: minor logic adjustment",
+            "chore: maintenance",
+            "perf: optimize loop",
+            "test: update test cases",
+            "refactor: improve code structure",
+            "docs: add inline comments",
+            "chore: code cleanup",
+            "style: improve readability"
+        ]
+    }
