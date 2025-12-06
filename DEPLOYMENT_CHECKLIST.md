@@ -61,5 +61,19 @@ git push -u origin main
 4. Click on the running job to see logs
 5. Check one of your 4 repos for a new commit!
 
-## ✅ Done!
-The agent will now run automatically every hour. It will decide randomly whether to act based on your schedule (11am-3am main shift).
+## 🛑 How to STOP the Agent
+If you want to stop the script permanently:
+
+**Option 1: Disable (Recommended)**
+1. Go to your `ghost-agent` repo on GitHub.
+2. Click the **"Actions"** tab.
+3. Click **"Ghost Agent Daily Run"** on the left sidebar.
+4. Click the **"..."** (three dots) menu near the top right.
+5. Click **"Disable workflow"**.
+*The agent will stop running immediately, but your code remains safe.*
+
+**Option 2: Delete (Permanent)**
+1. Go to your `ghost-agent` repo **Settings**.
+2. Scroll to the bottom "Danger Zone".
+3. Click **"Delete this repository"**.
+*This removes the agent completely.*

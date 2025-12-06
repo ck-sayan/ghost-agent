@@ -73,8 +73,8 @@
             {
                 "start": 11,
                 "end": 27,
-                "probability": 0.7,
-                "desc": "Main Shift (11am-3am)"
+                "probability": 0.95,
+                "desc": "Main Shift (11am-3am) - CATCHUP MODE"
             },
             {
                 "start": 9,

@@ -43,8 +43,15 @@ def run_command(command, cwd=None):
         return None
 
 def get_current_hour():
-    now = datetime.datetime.now()
-    hour = now.hour
+    # Force IST (India Standard Time) = UTC + 5:30
+    # GitHub Actions runs on UTC, so we must adjust manually
+    utc_now = datetime.datetime.utcnow()
+    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+    hour = ist_now.hour
+    
+    # Debug print to verify time in logs
+    print(f"Current Time (IST): {ist_now.strftime('%Y-%m-%d %H:%M:%S')} | Hour: {hour}")
+    
     if hour < 4: 
         hour += 24
     return hour
