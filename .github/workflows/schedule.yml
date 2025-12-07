@@ -1,6 +1,9 @@
 name: Ghost Agent Daily Run
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Run every hour (The script itself decides if it should act)
     - cron: '0 * * * *'

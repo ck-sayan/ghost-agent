@@ -8,6 +8,47 @@ import shutil
 
 CONFIG_FILE = "config.json"
 HISTORY_FILE = "history.json"
+LOG_FILE = "ghost_log.txt"
+
+def log_activity(message):
+    """Appends a message to the log file with a timestamp."""
+    utc_now = datetime.datetime.utcnow()
+    ist_now = utc_now + datetime.timedelta(hours=5, minutes=30)
+    timestamp = ist_now.strftime('%Y-%m-%d %H:%M:%S')
+    log_entry = f"[{timestamp}] {message}\n"
+    
+    print(log_entry.strip())
+    
+    try:
+        with open(LOG_FILE, 'a', encoding='utf-8') as f:
+            f.write(log_entry)
+    except Exception as e:
+        print(f"Failed to write logs: {e}")
+
+def push_logs(token=None):
+    """Pushes the log file to the repo."""
+    try:
+        # If we are in the main repo context (not temp), git commands works directly
+        if os.path.exists(".git"):
+            subprocess.run("git config user.name 'Ghost Agent'", shell=True)
+            subprocess.run("git config user.email 'agent@ghost.local'", shell=True)
+            subprocess.run(f"git add {LOG_FILE}", shell=True)
+            subprocess.run(f"git commit -m 'chore: update logs'", shell=True)
+            
+            # If token is provided, constructing auth URL for push (needed in GitHub Actions)
+            if token:
+                 # Get remote origin url
+                proc = subprocess.run("git remote get-url origin", shell=True, capture_output=True, text=True)
+                origin_url = proc.stdout.strip()
+                if "https://" in origin_url and "@" not in origin_url:
+                     auth_url = origin_url.replace("https://", f"https://{token}@")
+                     subprocess.run(f"git push {auth_url}", shell=True)
+                else:
+                    subprocess.run("git push", shell=True)
+            else:
+                subprocess.run("git push", shell=True)
+    except Exception as e:
+        print(f"Failed to push logs: {e}")
 
 def load_json(filepath):
     if not os.path.exists(filepath):
@@ -204,17 +245,30 @@ def apply_new_change(repo_path, config):
         return None
 
 def main():
-    print("--- Cloud Agent Started ---")
-    config = load_config()
+    log_activity("--- Cloud Agent Started ---")
+    
+    try:
+        config = load_config()
+        log_activity("Config loaded")
+    except Exception as e:
+        log_activity(f"Failed to load config: {e}")
+        push_logs()
+        return
+
     history = load_json(HISTORY_FILE)
     
     token = os.environ.get("GH_PAT")
     if not token:
-        print("Error: GH_PAT environment variable not found.")
+        log_activity("Error: GH_PAT environment variable not found.")
+        push_logs()
         return
 
     if not should_run(config['schedule']):
+        log_activity("Schedule check: SKIP")
+        push_logs(token)
         return
+
+    log_activity("Schedule check: RUN - Proceeding with execution")
 
     # Decide how many commits to make this session (1-23 range)
     # More commits during main shift, fewer during secondary
@@ -224,7 +278,7 @@ def main():
     else:
         num_commits = random.randint(1, 3)
     
-    print(f"Planning to make {num_commits} commit(s) this session")
+    log_activity(f"Planning to make {num_commits} commit(s) this session (Hour: {current_h})")
     
     commits_made = 0
     
@@ -241,14 +295,16 @@ def main():
                     run_command("git push", cwd=temp_repo)
                     save_json(HISTORY_FILE, {})
                     commits_made += 1
-                    print(f"Cleanup commit made ({commits_made}/{num_commits})")
+                    log_activity(f"Cleanup commit made ({commits_made}/{num_commits})")
                 cleanup_repo(temp_repo)
+            else:
+                 log_activity(f"Failed to setup repo for cleanup: {target_repo_url}")
 
     # Make remaining commits
     while commits_made < num_commits:
         repo_urls = config['repos']
         if not repo_urls:
-            print("No repos configured.")
+            log_activity("No repos configured.")
             break
 
         target_url = random.choice(repo_urls)
@@ -267,15 +323,20 @@ def main():
                 run_command(f'git commit -m "{message}"', cwd=temp_repo)
                 run_command("git push", cwd=temp_repo)
                 commits_made += 1
-                print(f"Commit made to {target_url.split('/')[-1]} ({commits_made}/{num_commits})")
+                log_activity(f"Commit made to {target_url.split('/')[-1]} ({commits_made}/{num_commits})")
+            else:
+                 log_activity(f"Failed to apply new change/modify file in {target_repo}")
             
             cleanup_repo(temp_repo)
+        else:
+             log_activity(f"Failed to setup repo: {target_url}")
             
             # Small delay between commits to look more human
             if commits_made < num_commits:
                 time.sleep(random.randint(2, 8))
     
-    print(f"Session complete! Made {commits_made} commit(s)")
+    log_activity(f"Session complete! Made {commits_made} commit(s)")
+    push_logs(token)
 
 if __name__ == "__main__":
     main()
