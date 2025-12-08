@@ -318,11 +318,11 @@ def main():
             
             cleanup_repo(temp_repo)
         else:
-             log_activity(f"Failed to setup repo: {target_url}")
-            
-            # Small delay between commits to look more human
-            if commits_made < num_commits:
-                time.sleep(random.randint(2, 8))
+            log_activity(f"Failed to setup repo: {target_url}")
+        
+        # Small delay between commits to look more human
+        if commits_made < num_commits:
+            time.sleep(random.randint(2, 8))
     
     log_activity(f"Session complete! Made {commits_made} commit(s)")
     push_logs(token)
