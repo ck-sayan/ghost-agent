@@ -314,7 +314,7 @@ def main():
                 commits_made += 1
                 log_activity(f"Commit made to {target_url.split('/')[-1]} ({commits_made}/{num_commits})")
             else:
-                 log_activity(f"Failed to apply new change/modify file in {target_repo}")
+                 log_activity(f"Failed to apply new change/modify file in {target_url}")
             
             cleanup_repo(temp_repo)
         else:
