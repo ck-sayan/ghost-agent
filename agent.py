@@ -34,19 +34,8 @@ def push_logs(token=None):
             subprocess.run("git config user.email 'agent@ghost.local'", shell=True)
             subprocess.run(f"git add {LOG_FILE}", shell=True)
             subprocess.run(f"git commit -m 'chore: update logs'", shell=True)
-            
-            # If token is provided, constructing auth URL for push (needed in GitHub Actions)
-            if token:
-                 # Get remote origin url
-                proc = subprocess.run("git remote get-url origin", shell=True, capture_output=True, text=True)
-                origin_url = proc.stdout.strip()
-                if "https://" in origin_url and "@" not in origin_url:
-                     auth_url = origin_url.replace("https://", f"https://{token}@")
-                     subprocess.run(f"git push {auth_url}", shell=True)
-                else:
-                    subprocess.run("git push", shell=True)
-            else:
-                subprocess.run("git push", shell=True)
+            # Just push using the current auth (GITHUB_TOKEN from checkout)
+            subprocess.run("git push", shell=True)
     except Exception as e:
         print(f"Failed to push logs: {e}")
 

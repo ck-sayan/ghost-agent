@@ -9,6 +9,9 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch: # Allows manual trigger for testing
 
+permissions:
+  contents: write
+
 jobs:
   run-agent:
     runs-on: ubuntu-latest
@@ -16,8 +19,7 @@ jobs:
     steps:
     - name: Checkout Agent Repo
       uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GH_PAT }} # Use PAT to checkout so we can push back history
+      # Using default GITHUB_TOKEN for self-repo operations (reliable for logging)
 
     - name: Set up Python
       uses: actions/setup-python@v4
