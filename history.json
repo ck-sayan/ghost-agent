@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1765380270.9596245,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "popup/popup.js",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1765384155.8484387,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
