@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-livescroll.js",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1765362333.0154803,
+    "rel_path": "popup/popup.js",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1765365566.9876225,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
