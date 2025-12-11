@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1765457098.6022463,
+    "rel_path": "scripts/content-areaselect.js",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1765460362.7699006,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
