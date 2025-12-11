@@ -1,6 +1,6 @@
 {
-    "rel_path": "app/components/ChatMessage.tsx",
+    "rel_path": "popup/popup.js",
     "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1765451955.742371,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "timestamp": 1765457098.6022463,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
