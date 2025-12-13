@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-livescroll.js",
-    "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1765610470.9501135,
+    "rel_path": "popup/popup.js",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1765614300.091116,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
