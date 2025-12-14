@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
+    "rel_path": "app/api/chat/route.ts",
     "added_content": "// TODO: Improve error handling",
-    "timestamp": 1765743681.534118,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "timestamp": 1765747109.6574728,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
