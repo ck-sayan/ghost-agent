@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1765794354.9438264,
+    "rel_path": "scripts/content-areaselect.js",
+    "added_content": "// TODO: Add documentation",
+    "timestamp": 1765797609.035976,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
