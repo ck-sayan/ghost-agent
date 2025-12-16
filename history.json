@@ -1,6 +1,6 @@
 {
-    "rel_path": "app/components/Header.tsx",
+    "rel_path": "scripts/background.js",
     "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1765905856.5978003,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "timestamp": 1765910019.592335,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
