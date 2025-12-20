@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-livescroll.js",
-    "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1766226024.2436576,
+    "rel_path": "popup/popup.js",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1766229457.4998446,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
