@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1766237321.6002324,
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1766240358.9717932,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
