@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/fullpage.ts",
-    "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1766250989.2088594,
+    "rel_path": "scripts/content-fullpage.js",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1766255224.969395,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
