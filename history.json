@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1766291893.756682,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "lib/supabase-server.ts",
+    "added_content": "// TODO: Add more tests",
+    "timestamp": 1766294510.010157,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
