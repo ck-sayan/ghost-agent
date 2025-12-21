@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "rel_path": "scripts/content-livescroll.js",
     "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1766351868.7445967,
+    "timestamp": 1766355664.8942811,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
