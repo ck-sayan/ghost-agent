@@ -1,6 +1,6 @@
 {
-    "rel_path": "lib/supabase-server.ts",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1766392220.5571148,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
+    "added_content": "// NOTE: Consider edge cases",
+    "timestamp": 1766395814.752527,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
