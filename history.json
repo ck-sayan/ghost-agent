@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1766413298.5849817,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "app/sign-up/[[...sign-up]]/page.tsx",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1766416987.4986427,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
