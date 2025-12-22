@@ -1,6 +1,6 @@
 {
-    "rel_path": "app/components/SuggestionCard.tsx",
+    "rel_path": "wxt-app/entrypoints/background.ts",
     "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1766378425.1338825,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "timestamp": 1766381046.8658595,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
