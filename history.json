@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-areaselect.js",
-    "added_content": "// TODO: Add more tests",
-    "timestamp": 1766438324.7314901,
+    "rel_path": "wxt-app/entrypoints/areaselect.ts",
+    "added_content": "// TODO: Improve error handling",
+    "timestamp": 1766442130.1970682,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
