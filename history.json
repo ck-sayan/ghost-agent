@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/tailwind.config.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1766510492.4243748,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "lib/supabase-server.ts",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1766514742.4881282,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
