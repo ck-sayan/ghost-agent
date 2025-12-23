@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/livescroll.ts",
+    "rel_path": "lib/supabase.ts",
     "added_content": "// TODO: Add more tests",
-    "timestamp": 1766474640.4857783,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "timestamp": 1766478721.561423,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
