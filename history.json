@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/tailwind.config.js",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1766607713.0318947,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "app/api/chat/route.ts",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1766611176.216792,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
