@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1766571810.9483879,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "script.js",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1766575207.8092742,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
