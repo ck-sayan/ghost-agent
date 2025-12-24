@@ -1,6 +1,6 @@
 {
-    "rel_path": "next.config.ts",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1766580168.9985712,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/wxt.config.ts",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1766583092.351591,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
