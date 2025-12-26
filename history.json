@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1766733698.8293238,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "next.config.ts",
+    "added_content": "// NOTE: Consider edge cases",
+    "timestamp": 1766737736.190133,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
