@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1766862914.0367055,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "app/components/Header.tsx",
+    "added_content": "// TODO: Add documentation",
+    "timestamp": 1766866965.6529462,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
