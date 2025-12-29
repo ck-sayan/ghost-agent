@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/middleware.ts",
-    "added_content": "// TODO: Add more tests",
-    "timestamp": 1767046818.0896928,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "script.js",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1767050342.8689091,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
