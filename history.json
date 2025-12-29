@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
+    "rel_path": "src/app/_components/ui/BubbleBackground.tsx",
     "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1766983787.7277112,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "timestamp": 1766986138.1938221,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
