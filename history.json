@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/background.js",
-    "added_content": "// TODO: Add documentation",
-    "timestamp": 1767162869.2994576,
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1767165812.8521538,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
