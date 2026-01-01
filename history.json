@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1767219680.5807214,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/api/chat/route.ts",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1767232160.0509894,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
