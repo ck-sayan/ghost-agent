@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
-    "added_content": "// TODO: Improve error handling",
-    "timestamp": 1767271275.6046832,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/middleware.ts",
+    "added_content": "// TODO: Add more tests",
+    "timestamp": 1767274439.1719413,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
