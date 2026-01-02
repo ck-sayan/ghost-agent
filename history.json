@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1767385384.7395856,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/layout.tsx",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1767388566.7658043,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
