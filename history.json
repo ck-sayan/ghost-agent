@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
-    "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1767360814.9431665,
+    "rel_path": "wxt-app/entrypoints/fullpage.ts",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1767363603.600922,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
