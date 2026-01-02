@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/fullpage.ts",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1767363603.600922,
+    "rel_path": "scripts/content-fullpage.js",
+    "added_content": "// FIXME: Potential edge case",
+    "timestamp": 1767367361.4776256,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
