@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/content.ts",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1767640919.2305355,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/layout.tsx",
+    "added_content": "// TODO: Add more tests",
+    "timestamp": 1767644717.9180017,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
