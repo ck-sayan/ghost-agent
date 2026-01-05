@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/areaselect.ts",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1767648026.3762438,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/_components/layout/Header.tsx",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1767651711.7324274,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
