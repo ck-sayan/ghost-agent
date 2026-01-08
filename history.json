@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/config/supabase.ts",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1767876275.4357703,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/fullpage.ts",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1767879673.6515117,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
