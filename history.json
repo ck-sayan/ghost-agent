@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
-    "added_content": "// TODO: Improve error handling",
-    "timestamp": 1767885979.3645082,
+    "rel_path": "wxt-app/entrypoints/content.ts",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1767889810.0637283,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
