@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/tailwind.config.js",
-    "added_content": "// TODO: Add documentation",
-    "timestamp": 1767871387.913529,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/lib/config/supabase.ts",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1767876275.4357703,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
