@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
+    "rel_path": "wxt-app/entrypoints/background.ts",
     "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1767947466.6639822,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "timestamp": 1767950874.8117204,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
