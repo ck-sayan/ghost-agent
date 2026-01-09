@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/background.ts",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1767950874.8117204,
+    "rel_path": "wxt-app/entrypoints/content.ts",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1767954292.6215274,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
