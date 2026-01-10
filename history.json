@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/app/_components/ui/index.ts",
-    "added_content": "// NOTE: Review logic for performance",
-    "timestamp": 1768022523.5482543,
+    "rel_path": "src/app/_components/layout/index.ts",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1768026625.9647639,
     "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
