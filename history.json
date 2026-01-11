@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-areaselect.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1768159029.7539296,
+    "rel_path": "wxt-app/entrypoints/fullpage.ts",
+    "added_content": "// FIXME: Potential edge case",
+    "timestamp": 1768162945.377885,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
