@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
-    "added_content": "// NOTE: Optimization needed here",
-    "timestamp": 1768189854.5292056,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "script.js",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1768193432.8409042,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
