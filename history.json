@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/utils/cn.ts",
-    "added_content": "// TODO: Cleanup legacy code",
-    "timestamp": 1768289157.6313167,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "script.js",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1768293085.4182599,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
