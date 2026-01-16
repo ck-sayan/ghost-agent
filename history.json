@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-fullpage.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1768598482.96705,
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1768602099.7797081,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
