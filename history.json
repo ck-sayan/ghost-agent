@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Review logic for performance",
-    "timestamp": 1768638493.035047,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1768641680.0449977,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
