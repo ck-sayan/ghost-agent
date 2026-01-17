@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/app/_components/chat/ChatMessage.tsx",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1768656601.44886,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "script.js",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1768659550.823694,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
