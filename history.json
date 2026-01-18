@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/fullpage.ts",
-    "added_content": "// NOTE: Review logic for performance",
-    "timestamp": 1768720845.595289,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/_components/chat/InputBox.tsx",
+    "added_content": "// TODO: Improve error handling",
+    "timestamp": 1768724789.957887,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
