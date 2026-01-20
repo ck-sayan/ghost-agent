@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
+    "rel_path": "next.config.ts",
     "added_content": "// NOTE: Optimization needed here",
-    "timestamp": 1768916848.5483656,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "timestamp": 1768919554.2930167,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
