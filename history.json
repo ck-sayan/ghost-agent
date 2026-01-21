@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1768980532.6998525,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "src/app/layout.tsx",
+    "added_content": "// FIXME: Potential edge case",
+    "timestamp": 1768984286.9621274,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
