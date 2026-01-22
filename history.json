@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-livescroll.js",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1769089662.6180437,
+    "rel_path": "wxt-app/entrypoints/content.ts",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1769092249.359887,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
