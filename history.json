@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/postcss.config.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1769034359.1108737,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "script.js",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1769053628.430494,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
