@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/config/supabase.ts",
-    "added_content": "// TODO: Improve error handling",
-    "timestamp": 1769329762.2278404,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/content.ts",
+    "added_content": "// TODO: Add documentation",
+    "timestamp": 1769332964.7921488,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
