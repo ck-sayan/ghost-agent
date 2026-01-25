@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/content.ts",
-    "added_content": "// TODO: Add documentation",
-    "timestamp": 1769332964.7921488,
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1769336588.8436635,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
