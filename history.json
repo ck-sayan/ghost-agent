@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/utils/cn.ts",
-    "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1769518217.1270006,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "script.js",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1769521669.8286655,
+    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
 }
