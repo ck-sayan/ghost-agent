@@ -1,6 +1,6 @@
 {
-    "rel_path": "next.config.ts",
-    "added_content": "// TODO: Update dependency usage",
-    "timestamp": 1769599453.0326984,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/livescroll.ts",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1769604689.6133864,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
