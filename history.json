@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1769596189.826773,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "next.config.ts",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1769599453.0326984,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
