@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-fullpage.js",
+    "rel_path": "wxt-app/entrypoints/background.ts",
     "added_content": "// TODO: Add more tests",
-    "timestamp": 1769758830.9630349,
+    "timestamp": 1769762312.3245895,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
