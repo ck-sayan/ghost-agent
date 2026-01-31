@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/app/(auth)/sign-up/[[...sign-up]]/page.tsx",
-    "added_content": "// TODO: Update dependency usage",
-    "timestamp": 1769837967.3768256,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/fullpage.ts",
+    "added_content": "// TODO: Add more tests",
+    "timestamp": 1769841488.6101816,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
