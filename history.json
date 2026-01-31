@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-fullpage.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1769866859.9127986,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/lib/config/supabase.ts",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1769869549.0598328,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
