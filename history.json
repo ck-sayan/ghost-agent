@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/postcss.config.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1769832519.5438192,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/(auth)/sign-up/[[...sign-up]]/page.tsx",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1769837967.3768256,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
