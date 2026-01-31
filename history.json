@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-fullpage.js",
-    "added_content": "// TODO: Improve error handling",
-    "timestamp": 1769855132.283796,
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// FIXME: Potential edge case",
+    "timestamp": 1769858506.1430714,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
