@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/hooks/index.ts",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1769912013.6085553,
+    "rel_path": "src/lib/constants/index.ts",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1769922054.6345367,
     "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
