@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/content.ts",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1769970887.9312232,
+    "rel_path": "wxt-app/entrypoints/areaselect.ts",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1769973887.4124124,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
