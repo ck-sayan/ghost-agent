@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1770046683.1237338,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "src/app/_components/chat/InputBox.tsx",
+    "added_content": "// TODO: Update dependency usage",
+    "timestamp": 1770050434.089763,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
