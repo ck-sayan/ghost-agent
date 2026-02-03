@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/fullpage.ts",
-    "added_content": "// TODO: Add more tests",
-    "timestamp": 1770115327.3324072,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "next.config.ts",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770118560.699157,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
