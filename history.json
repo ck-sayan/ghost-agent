@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// TODO: Add documentation",
-    "timestamp": 1770137601.6084008,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "src/app/api/chat/route.ts",
+    "added_content": "// TODO: Cleanup legacy code",
+    "timestamp": 1770141164.6195166,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
