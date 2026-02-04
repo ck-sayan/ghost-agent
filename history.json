@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/content-fullpage.js",
+    "rel_path": "src/lib/utils/supabase-server.ts",
     "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1770227100.545272,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "timestamp": 1770231105.8979523,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
