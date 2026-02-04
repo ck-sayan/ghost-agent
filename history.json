@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/app/api/chat/route.ts",
-    "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1770240937.8491328,
+    "rel_path": "src/app/_components/chat/ChatList.tsx",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770244164.9413702,
     "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
