@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/areaselect.ts",
-    "added_content": "// NOTE: Review logic for performance",
-    "timestamp": 1770223729.6128895,
+    "rel_path": "scripts/content-fullpage.js",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770227100.545272,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
