@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/wxt.config.ts",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1770247598.4332535,
+    "rel_path": "wxt-app/postcss.config.js",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770266968.5680964,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
