@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/tailwind.config.js",
-    "added_content": "// TODO: Update dependency usage",
-    "timestamp": 1770313718.6753511,
+    "rel_path": "popup/popup.js",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770317207.2553287,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
