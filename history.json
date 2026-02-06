@@ -1,6 +1,6 @@
 {
-    "rel_path": "popup/popup.js",
-    "added_content": "// NOTE: Optimization needed here",
-    "timestamp": 1770374399.0803463,
+    "rel_path": "scripts/content-areaselect.js",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1770377676.8651264,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
