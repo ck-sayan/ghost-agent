@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
+    "rel_path": "src/lib/utils/cn.ts",
     "added_content": "// TODO: Improve error handling",
-    "timestamp": 1770586059.138587,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "timestamp": 1770589640.948623,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
