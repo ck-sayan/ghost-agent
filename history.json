@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/wxt.config.ts",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1770617551.8999693,
+    "rel_path": "wxt-app/entrypoints/content.ts",
+    "added_content": "// FIXME: Memory leak potential",
+    "timestamp": 1770623913.9565794,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
