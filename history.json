@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/content.ts",
-    "added_content": "// NOTE: Consider edge cases",
-    "timestamp": 1770721588.6806333,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "rel_path": "src/app/page.tsx",
+    "added_content": "// NOTE: Temporary workaround",
+    "timestamp": 1770729236.3906088,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
