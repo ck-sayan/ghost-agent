@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// FIXME: Potential edge case",
-    "timestamp": 1770928597.0233717,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "wxt-app/entrypoints/popup/main.tsx",
+    "added_content": "// TODO: Add documentation",
+    "timestamp": 1770931972.9494762,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
