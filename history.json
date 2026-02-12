@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/lib/utils/cn.ts",
-    "added_content": "// TODO: Improve error handling",
-    "timestamp": 1770885957.6970224,
-    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
+    "rel_path": "wxt-app/entrypoints/popup/App.tsx",
+    "added_content": "// TODO: Add more tests",
+    "timestamp": 1770889853.414485,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
