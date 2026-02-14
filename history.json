@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Refactor for readability",
-    "timestamp": 1771079259.3262067,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "next.config.ts",
+    "added_content": "// FIXME: Potential edge case",
+    "timestamp": 1771082713.187981,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
