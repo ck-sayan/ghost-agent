@@ -1,6 +1,6 @@
 {
-    "rel_path": "scripts/background.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1771107850.0632188,
+    "rel_path": "wxt-app/entrypoints/background.ts",
+    "added_content": "// NOTE: Review logic for performance",
+    "timestamp": 1771131294.433975,
     "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
