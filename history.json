@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1771328394.2065895,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "src/app/layout.tsx",
+    "added_content": "// TODO: Refactor this section later",
+    "timestamp": 1771333380.8503375,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
