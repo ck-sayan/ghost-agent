@@ -1,6 +1,6 @@
 {
-    "rel_path": "wxt-app/entrypoints/background.ts",
+    "rel_path": "src/app/_components/chat/ChatMessage.tsx",
     "added_content": "// TODO: Refactor this section later",
-    "timestamp": 1771401148.6638422,
-    "repo_url": "https://github.com/ck-sayan/Timble.git"
+    "timestamp": 1771404300.7345333,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
