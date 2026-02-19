@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Review logic for performance",
-    "timestamp": 1771536708.8709438,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "src/lib/config/supabase.ts",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1771540232.94039,
+    "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
