@@ -1,6 +1,6 @@
 {
-    "rel_path": "script.js",
-    "added_content": "// NOTE: Temporary workaround",
-    "timestamp": 1771709023.1260698,
-    "repo_url": "https://github.com/ck-sayan/pragya-ai-vanilla.git"
+    "rel_path": "popup/popup.js",
+    "added_content": "// NOTE: Refactor for readability",
+    "timestamp": 1771712673.3564167,
+    "repo_url": "https://github.com/ck-sayan/Timble.git"
 }
