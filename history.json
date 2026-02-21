@@ -1,6 +1,6 @@
 {
-    "rel_path": "src/app/_components/ui/ClearChatModal.tsx",
+    "rel_path": "src/lib/constants/index.ts",
     "added_content": "// FIXME: Memory leak potential",
-    "timestamp": 1771662732.4009736,
+    "timestamp": 1771666301.3376417,
     "repo_url": "https://github.com/ck-sayan/pragya.ai.git"
 }
